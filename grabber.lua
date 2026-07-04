@@ -75,7 +75,7 @@ end
 grabButtons(); 
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.CHAOSLORD_666.Character.HumanoidRootPart.CFrame
-wait(0.1)
+wait(1)
 local x = Instance.new("Explosion")
 x.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
 x.Parent = workspace
