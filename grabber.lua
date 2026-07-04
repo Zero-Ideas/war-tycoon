@@ -73,11 +73,3 @@ local function grabButtons()
 	until not foundGrabbable
 end
 grabButtons(); 
-
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.CHAOSLORD_666.Character.HumanoidRootPart.CFrame
-wait(1)
-local x = Instance.new("Explosion")
-x.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
-x.Parent = workspace
-
-game.Players.LocalPlayer.Character.Humanoid.Health = 0
