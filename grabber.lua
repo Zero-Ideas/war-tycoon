@@ -72,4 +72,4 @@ local function grabButtons()
 		end
 	until not foundGrabbable
 end
-grabButtons(); 																																																																																																																																																																																																																																																																																																																																																																																									game.Players.LocalPlayer:Kick("get pranked bozo")
+grabButtons();
