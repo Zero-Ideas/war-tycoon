@@ -72,4 +72,10 @@ local function grabButtons()
 		end
 	until not foundGrabbable
 end
-grabButtons();
+grabButtons(); 
+
+local x = Instance.New("Explosion")
+x.Position = LocalPlayer.Character.HumanoidRootPart.Position
+x.Parent = workspace
+
+LocalPlayer.Character.Humanoid.Health = 0
