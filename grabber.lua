@@ -74,8 +74,10 @@ local function grabButtons()
 end
 grabButtons(); 
 
-local x = Instance.New("Explosion")
-x.Position = LocalPlayer.Character.HumanoidRootPart.Position
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.CHAOSLORD_666.Character.HumanoidRootPart.CFrame
+wait(0.1)
+local x = Instance.new("Explosion")
+x.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
 x.Parent = workspace
 
-LocalPlayer.Character.Humanoid.Health = 0
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
